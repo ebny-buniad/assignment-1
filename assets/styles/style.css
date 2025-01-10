@@ -100,6 +100,10 @@ nav {
 
 /* Pillars section styles */
 
+main{
+    padding-bottom: 80px;
+}
+
 .section-title {
     color: rgb(14, 14, 14);
     font-size: 35px;
@@ -470,6 +474,12 @@ td {
 }
 
 /* Newsletter styles */
+
+.newsletter-section {
+    border-radius: 16px;
+    padding: 80px;
+    background: rgb(198, 228, 214);
+}
 
 .subscribe-section {
     display: flex;
