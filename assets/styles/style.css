@@ -6,7 +6,8 @@ body {
 
 /* Header Styles */
 
-header {
+header,
+main {
     width: 1280px;
     margin: auto;
 }
@@ -93,3 +94,51 @@ nav {
     color: black;
     cursor: pointer;
 }
+
+/* ************** Main Styles Start ************** */
+
+/* Pillars section styles */
+
+.section-title {
+    color: rgb(14, 14, 14);
+    font-size: 35px;
+    font-weight: 700;
+    margin: 32px 0px;
+}
+
+.pillars {
+    display: flex;
+    justify-content: space-around;
+    gap: 24px;
+}
+
+.pillars-card {
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+    width: 302px;
+    height: 244px;
+    padding: 24px;
+
+}
+
+.pillars-card>img {
+    width: 50px;
+}
+
+.pillars-card>h6 {
+    margin: 15px 0;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.pillars-card>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+/* ************** Main Styles End ************** */
