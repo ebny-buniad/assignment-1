@@ -1,6 +1,7 @@
 body {
     font-family: "Fira Sans", serif;
     background-color: rgb(245, 245, 245);
+    margin: 0px;
 }
 
 
@@ -470,22 +471,6 @@ td {
 
 /* Newsletter styles */
 
-.newsletter-section {
-    background-color: rgb(198, 228, 214);
-    padding: 80px 100px 80px 100px;
-    border-radius: 16px;
-}
-
-form {
-    text-align: center;
-}
-
-.subscribe {
-    width: 500px;
-}
-
-/* ************** Main Styles End ************** */
-
 .subscribe-section {
     display: flex;
     align-items: center;
@@ -519,4 +504,39 @@ form {
 
 .subscribe-button:hover {
     background-color: #004d40;
+}
+
+/* ************** Main Styles End ************** */
+
+
+/* Footer Styles */
+
+footer {
+    background-color: #ffffffff;
+    padding: 20px;
+}
+
+.footer-title {
+    text-align: center;
+    color: rgb(14, 14, 14);
+    font-size: 28px;
+    font-weight: 700;
+}
+
+hr {
+    color: 1px solid rgba(224, 224, 224, 0.271);
+    width: 900px;
+    margin: auto;
+    display: block;
+}
+
+.footer-icon {
+    display: flex;
+    justify-content: center;
+    margin-top: 20px;
+    gap: 10px;
+}
+
+.footer-icon>img {
+    width: 15px;
 }
