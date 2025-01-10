@@ -1,0 +1,37 @@
+body {
+    font-family: "Fira Sans", serif;
+    background-color: rgb(245, 245, 245);
+}
+
+
+/* Header Styles */
+
+nav {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+    width: 1280px;
+    margin: auto;
+}
+
+.logo-text {
+    font-size: 28px;
+    font-weight: 700;
+    line-height: 38px;
+}
+
+.sign-in-btn {
+    padding: 15px 30px 15px 30px;
+    border: 1px solid rgb(0, 106, 80);
+    border-radius: 8px;
+    color: rgb(0, 106, 80);
+    font-size: 14px;
+    font-weight: 600;
+    transition: .3s;
+}
+
+.sign-in-btn:hover {
+    background-color: rgb(0, 106, 80);
+    color: #ffffffff;
+    cursor: pointer;
+}
