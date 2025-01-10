@@ -213,13 +213,13 @@ nav {
     border: 1px solid rgb(255, 194, 57);
 }
 
-.btn-1:hover, .btn-2:hover, .btn-3:hover{
+.btn-1:hover,
+.btn-2:hover,
+.btn-3:hover {
     background: transparent;
     color: black;
     cursor: pointer;
-}   
-
-
+}
 
 .future-cards-1 {
     background: rgba(84, 144, 245, 0.2);
@@ -231,6 +231,53 @@ nav {
 
 .future-cards-3 {
     background-color: rgb(247, 235, 207);
+}
+
+/* Dr. Yunus Speech content */
+
+.speech-box {
+    margin: 24px 0px;
+    box-sizing: border-box;
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    border-radius: 16px;
+    background: rgb(255, 255, 255);
+
+}
+
+.speech-content {
+    background: url('../images/quote-bg.png');
+    background-repeat: no-repeat;
+    background-size: 40px;
+    margin: 20px 20px;
+    padding-bottom: 20px;
+}
+
+.content-text {
+    margin: 0px;
+    padding-top: 20px;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+}
+
+.name {
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 600;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin-bottom: 8px;
+}
+
+.position {
+    color: rgba(14, 14, 14, 0.6);
+    font-size: 13px;
+    text-align: left;
+    margin: 0px;
 }
 
 /* ************** Main Styles End ************** */
