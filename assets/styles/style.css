@@ -280,4 +280,43 @@ nav {
     margin: 0px;
 }
 
+/* Opinion matters */
+
+.opinion-box {
+    background-color: #ffffffff;
+    padding: 25px;
+    border-radius: 16px;
+}
+
+.table {
+    width: 100%;
+    border-collapse: collapse;
+}
+
+.table th,
+.table td {
+    border: 1px solid rgba(14, 14, 14, 0.15);
+    padding: 12px 15px;
+}
+
+.table thead tr {
+    background-color: rgb(198, 228, 214);
+}
+
+td {
+    font-size: 13px;
+    font-weight: 600;
+}
+
+.table select {
+    padding: 8px 12px;
+    border: 1px solid #aeaeae;
+    border-radius: 4px;
+    background-color: rgb(198, 228, 214);
+    font-size: 13px;
+    margin: auto;
+    display: block;
+    font-weight: 500;
+}
+
 /* ************** Main Styles End ************** */
