@@ -141,4 +141,96 @@ nav {
     line-height: 24px;
 }
 
+
+/* The vision of future styles */
+
+.vision-future-content {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+    letter-spacing: 0%;
+    text-align: left;
+    margin: 12px 0px;
+}
+
+.vision-of-future-cards {
+    display: flex;
+    justify-content: space-between;
+}
+
+.future-cards {
+    width: 410.67px;
+    height: 325px;
+    box-sizing: border-box;
+    border-radius: 16px;
+    padding: 24px;
+}
+
+.future-cards>img {
+    width: 60px;
+}
+
+.future-cards>h6 {
+    margin: 25px 0;
+    color: rgba(14, 14, 14, 0.8);
+    font-size: 20px;
+    font-weight: 700;
+}
+
+.future-cards>p {
+    color: rgba(14, 14, 14, 0.7);
+    font-size: 14px;
+    font-weight: 400;
+    line-height: 24px;
+}
+
+.future-cards>button {
+    border-radius: 8px;
+    margin-top: 40px;
+    padding: 12px 20px;
+    color: rgb(255, 255, 255);
+    font-size: 13px;
+    font-weight: 400;
+    line-height: 19px;
+    letter-spacing: 0%;
+    text-align: left;
+    transition: .3s;
+}
+
+.btn-1 {
+    background: rgb(84, 144, 245);
+    border: 1px solid rgb(84, 144, 245);
+}
+
+.btn-2 {
+    background: rgb(9, 161, 92);
+    border: 1px solid rgb(9, 161, 92);
+}
+
+.btn-3 {
+    background: rgb(255, 194, 57);
+    border: 1px solid rgb(255, 194, 57);
+}
+
+.btn-1:hover, .btn-2:hover, .btn-3:hover{
+    background: transparent;
+    color: black;
+    cursor: pointer;
+}   
+
+
+
+.future-cards-1 {
+    background: rgba(84, 144, 245, 0.2);
+}
+
+.future-cards-2 {
+    background-color: rgb(198, 228, 214);
+}
+
+.future-cards-3 {
+    background-color: rgb(247, 235, 207);
+}
+
 /* ************** Main Styles End ************** */
